@@ -65,6 +65,7 @@ public class Semana extends javax.swing.JFrame {
     private void btnactivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactivarActionPerformed
         lbmensaje.setText("Hola...");
         lbmensaje.setText("HENRY");
+        lbmensaje.setText("Como estas");
     }//GEN-LAST:event_btnactivarActionPerformed
 
     /**
