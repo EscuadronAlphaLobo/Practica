@@ -28,7 +28,10 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="lbmensaje" min="-2" max="-2" attributes="0"/>
                   <Component id="btnactivar" min="-2" max="-2" attributes="0"/>
-                  <Component id="lbtexto" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Component id="lblmensaje4" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbtexto" min="-2" pref="59" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace pref="430" max="32767" attributes="0"/>
           </Group>
@@ -43,7 +46,9 @@
               <Component id="lbmensaje" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
               <Component id="lbtexto" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="242" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+              <Component id="lblmensaje4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="138" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -70,6 +75,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Comic Sans MS" size="14" style="1"/>
         </Property>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmensaje4">
+      <Properties>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>
     </Component>

@@ -19,6 +19,7 @@ public class Semana extends javax.swing.JFrame {
         btnactivar = new javax.swing.JButton();
         lbmensaje = new javax.swing.JLabel();
         lbtexto = new javax.swing.JLabel();
+        lblmensaje4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -35,6 +36,8 @@ public class Semana extends javax.swing.JFrame {
         lbtexto.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
         lbtexto.setText("jLabel1");
 
+        lblmensaje4.setText("jLabel1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -44,7 +47,9 @@ public class Semana extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lbmensaje)
                     .addComponent(btnactivar)
-                    .addComponent(lbtexto, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(lblmensaje4)
+                        .addComponent(lbtexto, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(430, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -56,7 +61,9 @@ public class Semana extends javax.swing.JFrame {
                 .addComponent(lbmensaje)
                 .addGap(46, 46, 46)
                 .addComponent(lbtexto)
-                .addContainerGap(242, Short.MAX_VALUE))
+                .addGap(88, 88, 88)
+                .addComponent(lblmensaje4)
+                .addContainerGap(138, Short.MAX_VALUE))
         );
 
         pack();
@@ -66,6 +73,7 @@ public class Semana extends javax.swing.JFrame {
         lbmensaje.setText("Hola...");
         lbmensaje.setText("HENRY");
         lbmensaje.setText("Como estas");
+        lblmensaje4.setText("mi rex");
     }//GEN-LAST:event_btnactivarActionPerformed
 
     /**
@@ -105,6 +113,7 @@ public class Semana extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnactivar;
+    private javax.swing.JLabel lblmensaje4;
     private javax.swing.JLabel lbmensaje;
     private javax.swing.JLabel lbtexto;
     // End of variables declaration//GEN-END:variables
